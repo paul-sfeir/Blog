@@ -7,7 +7,7 @@ jobs:
     environment:
       HUGO_REMOTE_DIR: /var/www/blog/
     steps:
-      checkout
+      - checkout
       - run: git submodule init
       - run: 
           name: "Run Hugo"
