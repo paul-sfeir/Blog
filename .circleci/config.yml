@@ -11,15 +11,15 @@ jobs:
       - run: git submodule init
       - run: 
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v -s .
+          command: HUGO_ENV=production hugo -v
       - run: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
       - add_ssh_keys:
           fingerprints:
             - "KXv4MyKPm2xnNYbFp1FLeqRjurD+E+69egeM9F5maYM"
       - deploy:
           name: deploy to my server
-          command: 
-            if [ "${CIRCLE_BRANCH}" = "master" ]; then
-              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --log-file=~/rsync_log ~/project/public/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
+          command: | 
+            if [ "${CIRCLE_BRANCH}" = "main" ]; then
+              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" ~/project/public/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
             fi
 
