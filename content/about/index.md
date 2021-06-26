@@ -4,7 +4,6 @@ date = 2021-06-25T10:27:40+02:00
 author = "Paul SFEIR"
 tags = ["About"]
 categories = ["About"]
-draft = true
 +++
 
 Salut, moi c'est Paul ! Ingénieur Réseau depuis 2017, j'ai créé ce blog afin de partager mon futur hivernage aux Kerguelen, tout d'abord à ma famille et mes amis, mais pourquoi pas aussi aux curieux ou futurs/anciens hivernants !
