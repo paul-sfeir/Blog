@@ -5,13 +5,12 @@ jobs:
       - image: cibuilds/hugo:latest
     working_directory: ~/Blog
     environment:
-      HUGO_BUILD_DIR: ~/Blog/
       HUGO_REMOTE_DIR: /home/paul/blog
     steps:
       - checkout
       - run: 
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v -s ${HUGO_BUILD_DIR}
+          command: HUGO_ENV=production hugo -v -s .
       - add_ssh_keys:
           fingerprints:
             - "KXv4MyKPm2xnNYbFp1FLeqRjurD+E+69egeM9F5maYM"
@@ -19,7 +18,7 @@ jobs:
           name: deploy to my server
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
-              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete ${HUGO_BUILD_DIR}/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
+              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete ./ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
             else
               echo "Not master branch, dry run only"
             fi
