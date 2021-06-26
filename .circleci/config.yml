@@ -7,6 +7,7 @@ jobs:
     environment:
       HUGO_REMOTE_DIR: /var/www/blog/
     steps:
+      checkout
       - run: git submodule init
       - run: 
           name: "Run Hugo"
@@ -17,7 +18,7 @@ jobs:
             - "KXv4MyKPm2xnNYbFp1FLeqRjurD+E+69egeM9F5maYM"
       - deploy:
           name: deploy to my server
-          command: |
+          command: 
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
               rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --log-file=~/rsync_log ~/project/public/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
             fi
