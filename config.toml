@@ -2,11 +2,11 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://hivernage-kerguelen.monpetitdomaine.fr/"
 DefaultContentLanguage  = "fr"
-title                   = "Chroniques d'un hivernant aux îles Kerguelen"
+title                   = "Chroniques d'un hivernant informaticien aux îles Kerguelen"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 #disqusShortname         = ""
-#googleAnalytics         = ""
+googleAnalytics         = "G-4DRJJ5LN01"
 pluralizeListTitles     = false
 disableLanguages        = ["de", "es", "en", "ja", "nl", "pl", "pt", "zh-cn", "zh-tw"]
 enableEmoji             = true
@@ -41,7 +41,7 @@ enableEmoji             = true
     iOSColor            = "#ffffff"
 
   [params.header]
-    navbarTitle         = "Hivernant Ker72"
+    navbarTitle         = "Hivernage Kerguelen 72"
     dynamicTitles       = false
     searchMenu          = true
     shareMenu           = false
@@ -108,7 +108,7 @@ enableEmoji             = true
     weight            = 2
 
   [[menu.main]]
-    name              = "Hivernant Ker72"
+    name              = "Hivernage Kerguelen 72"
     identifier        = "blog"
     url               = "blog"
     pre               = "<i class='far fa-newspaper'></i>"
@@ -138,7 +138,7 @@ enableEmoji             = true
   [Languages.fr]
     LanguageCode        = "fr"
     LanguageName        = "Français"
-    title               = "Hivernant Ker72"
+    title               = "Hivernage Kerguelen 72"
     description         = ""
     weight              = 2
 

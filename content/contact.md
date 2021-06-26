@@ -6,7 +6,8 @@ tags = ["Contact"]
 categories = ["Contact"]
 +++
 
-A partir du 10 Octobre vous pourrez me contacter au choix par mail:
+Jusqu'au 10 Octobre, si vous souhaitez me joindre vous pouvez m'envoyer un mail à: <a href="mailto:paul.sfeir@gmail.com">paul.sfeir@gmail.com</a> 
+A partir du 10 Octobre, vous pourrez me contacter au choix par mail:
 <a href="mailto:paul.sfeir@kerguelen.ipev.fr">paul.sfeir@kerguelen.ipev.fr</a> 
 
 Ou par voie postale:
@@ -28,4 +29,4 @@ Faites juste attention de ne pas envoyer par inadvertence des graines ou insecte
 Enfin le courrier pouvant mettre plusieurs mois à me parvenir, si l'envie vous prenait de m'envoyer un colis avec de la nourriture (on peut toujours rêver), évitez les aliments qui ne se conservent pas très bien :wink:
 
 
-D'ailleurs je m'engage à répondre à toute lettre reçue avec un beau timbre tamponné par le bureau de poste local, alors n'hésitez pas!
+D'ailleurs je m'engage à répondre à toute lettre reçue avec un beau timbre tamponné par le bureau de poste local, alors n'hésitez pas !
