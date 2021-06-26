@@ -1,3 +1,230 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
+baseurl                 = "https://monpetitdomaine.fr/"
+DefaultContentLanguage  = "fr"
+title                   = "Chroniques d'un hivernant aux îles Kerguelen"
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 3
+#disqusShortname         = ""
+#googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = ["de", "es", "en", "ja", "nl", "pl", "pt", "zh-cn", "zh-tw"]
+enableEmoji             = true
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+[outputs]
+  home                  = ["html", "json", "rss"]
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = true
+  highlightjsTheme      = ""
+  highlightjsLang       = []
+  viewMorePostsLink     = ""
+  readingTime           = false
+  imageStretch          = ""
+  removeBlur            = false
+  #socialShare           = ["twitter", "facebook", "linkedin"]
+  hideEmptyStats        = false
+
+  [params.meta]
+    description         = "Chroniques d'un hivernant aux îles Kerguelen"
+    author              = "Paul SFEIR"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = "Hivernant Ker72"
+    dynamicTitles       = false
+    searchMenu          = true
+    shareMenu           = false
+    languageMenu        = false
+
+  [params.intro]
+    header                = "Paul SFEIR"
+    paragraph             = "Chroniques d'un hivernant informaticien aux îles Kerguelen"
+    rssIntro              = false
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "img/main/logo.jpg"
+      shape               = "circle"
+      width               = ""
+      alt                 = "Photo Paul SFEIR"
+
+  [params.sidebar]
+    about               = ""
+    postAmount          = 5
+    categories          = false
+    categoriesByCount   = false
+
+  [params.footer]
+    rssFooter           = false
+    socialFooter        = false
+
+  [params.utterances]
+    enabled             = false
+    repo                = ""
+    issueTerm           = "pathname"
+    issueNumber         = ""
+    label               = "" 
+    theme               = "github-light"
+
+  [params.staticman]
+    enabled             = false
+    api                 = ""  # No Trailing Slash
+    gitProvider         = ""
+    username            = ""
+    repo                = ""
+    branch              = ""
+
+    [params.staticman.recaptcha]
+      siteKey           = ""
+      encryptedKey      = ""
+
+[menu]
+
+  [[menu.main]]
+    name              = "Home"
+    identifier        = "home"
+    url               = ""
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "About"
+    identifier        = "about"
+    url               = "about"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Hivernant Ker72"
+    identifier        = "blog"
+    url               = "blog"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 3
+
+  #[[menu.main]]
+  #  name              = "Categories"
+  #  identifier        = "categories"
+  #  url               = "categories"
+  #  pre               = "<i class='fas fa-sitemap'></i>"
+  #  weight            = 5
+
+  [[menu.main]]
+    name              = "Contact"
+    identifier        = "contact"
+    url               = "contact"
+    pre               = "<i class='far fa-envelope'></i>"
+    weight            = 6
+
+[Languages]
+
+  #[Languages.en]
+  #  LanguageCode        = "en"
+  #  LanguageName        = "English"
+  #  weight              = 1
+
+  [Languages.fr]
+    LanguageCode        = "fr"
+    LanguageName        = "Français"
+    title               = "Hivernant Ker72"
+    description         = ""
+    weight              = 2
+
+    [[Languages.fr.menu.main]]
+      name              = "Accueil"
+      identifier        = "home"
+      url               = ""
+      pre               = "<i class='fas fa-home'></i>"
+      weight            = 1
+
+    [[Languages.fr.menu.main]]
+      name              = "A Propos"
+      identifier        = "about"
+      url               = "about"
+      pre               = "<i class='far fa-id-card'></i>"
+      weight            = 2
+
+    #[[Languages.fr.menu.main]]
+    #  name              = "Blog"
+    #  identifier        = "blog"
+    #  url               = "blog"
+    #  pre               = "<i class='far fa-newspaper'></i>"
+    #  weight            = 3
+
+    #[[Languages.fr.menu.main]]
+    #  name              = "Catégories"
+    #  identifier        = "categories"
+    #  url               = "categories"
+    #  pre               = "<i class='fas fa-sitemap'></i>"
+    #  weight            = 5
+
+    [[Languages.fr.menu.main]]
+      name              = "Contact"
+      identifier        = "contact"
+      url               = "contact"
+      pre               = "<i class='far fa-envelope'></i>"
+      weight            = 6
+
+ 
+
+[social]
+  # Coding Communities
+  #github                = ""
+  #gitlab                = ""
+  #stackoverflow         = "" # User Number
+  #bitbucket             = ""
+  #jsfiddle              = ""
+  #codepen               = ""
+  # Visual Art Communities
+  #deviantart            = ""
+  #flickr                = ""
+  #behance               = ""
+  #dribbble              = ""
+  # Publishing Communities
+  #wordpress             = ""
+  #medium                = ""
+  # Professional/Business Oriented Communities
+  linkedin              = "paulsfeir"
+  #linkedin_company      = ""
+  #foursquare            = ""
+  #xing                  = ""
+  #slideshare            = ""
+  # Social Networks
+  #facebook              = ""
+  #googleplus            = ""
+  #reddit                = ""
+  #quora                 = ""
+  #youtube               = ""
+  #vimeo                 = ""
+  #whatsapp              = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+   # wechat              = ""
+   # qq                  = "" # User ID Number
+  #instagram             = ""
+  #tumblr                = ""
+  #twitter               = ""
+  #strava                = ""
+  #skype                 = ""
+  #snapchat              = ""
+  #pinterest             = ""
+  #telegram              = ""
+  #vine                  = ""
+  #googlescholar         = ""
+ #orcid                 = ""
+ #researchgate          = ""
+ #keybase               = ""
+ #mastodon              = ""
+  # Email
+  email                 = "paul.sfeir@gmail.com"
