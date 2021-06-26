@@ -1,0 +1,24 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/Blog
+    environment:
+      HUGO_BUILD_DIR: ~/Blog/public
+    steps:
+      - run: apk update && apk add git
+      - checkout
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - add_ssh_keys:
+          fingerprints:
+            - "GweiGco/3i7H5H/GqcFsulLGQYaK+IYHOFDBrmUF6Kk"
+      - deploy:
+          name: deploy to my server
+          command: |
+            if [ "${CIRCLE_BRANCH}" = "master" ]; then
+              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete ${HUGO_BUILD_DIR}/ ${DEPLOY_USER}@${DEPLOY_HOST}:~/blog
+            else
+              echo "Not master branch, dry run only"
+            fi
+
