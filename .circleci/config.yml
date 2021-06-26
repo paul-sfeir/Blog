@@ -5,7 +5,7 @@ jobs:
       - image: cibuilds/hugo:latest
     working_directory: ~/Blog
     environment:
-      HUGO_BUILD_DIR: ~/Blog/public
+      HUGO_BUILD_DIR: /home/paul/blog
     steps:
       - run: apk update && apk add git
       - checkout
@@ -17,7 +17,7 @@ jobs:
           name: deploy to my server
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
-              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete ${HUGO_BUILD_DIR}/ ${DEPLOY_USER}@${DEPLOY_HOST}:~/blog
+              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete ${HUGO_BUILD_DIR}/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_BUILD_DIR}
             else
               echo "Not master branch, dry run only"
             fi
