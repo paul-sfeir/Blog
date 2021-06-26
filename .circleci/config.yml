@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/Blog
+    working_directory: ~/project
     environment:
       HUGO_REMOTE_DIR: /var/www/blog/
     steps:
@@ -18,7 +18,7 @@ jobs:
           name: deploy to my server
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
-              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete ~/Blog/public/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
+              rsync -azv -e "ssh -o StrictHostKeyChecking=no -p ${DEPLOY_PORT}" --delete public/ ${DEPLOY_USER}@${DEPLOY_HOST}:${HUGO_REMOTE_DIR}
             else
               echo "Not master branch, dry run only"
             fi
