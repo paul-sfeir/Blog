@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = ["About"]
 categories = ["About"]
 [[images]]
-  src = "img/Articles/Origines/Couverture.png"
+  src = "img/Articles/Origines/Couverture.jpg"
   alt = "Brest scene"
   stretch = "horizontal"
 +++
@@ -27,6 +27,10 @@ Il est maintenant temps de commencer à préparer mes affaires, et de suite des 
 Heureusement l'actuel informaticien réseau de Kerguelen m'envoie un mois plus tard la liste de tout ce qu'il faut prévoir, merci Clément !
 
 Pour envoyer toutes ces affaires nous avons le droit d'envoyer en amont jusqu'à 3 cantines métalliques de 40kg qui partiront fin juillet pour la Réunion, où elles attendront notre arrivée mi-octobre pour le départ. Pour ma part j'en ai pris deux, que j'ai rempli d'affaires plus ou moins utiles...
+
+
+{{< figure src="Caddie.jpg" link="Caddie.jpg" caption="L'essentiel pour partir un an..." >}}
+
 
 Prochaine étape, un mois et demi de formations réparties entre Brest et Strasbourg à partir du 30 août. Mais je vais m'arrêter là pour ce premier post et vous dis à bientôt pour la suite !
 
