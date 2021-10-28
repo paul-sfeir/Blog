@@ -41,7 +41,7 @@ Nous arrivons aussi à nous faire prêter une planche de surf qui nous servira t
 {{< figure src="Surf.jpg" link="Surf.jpg" caption="J'ai pris des vagues au moins 4 fois plus grosses mais évidemment pas de photos 😇" >}}
 
 
-En début de deuxième semaine nous aurons une nouvelle formation sur un aspect que je trouve très intéressant de notre poste à Kerguelen à savoir seconder le "génèr", soit le responsable de la logistique appliquée au fret rentrant et sortant des îles mais aussi de la planification des sorties de la station et la responsabilité des inventaires. Pour finir cette semaine nous rencontrerons  tous les autres VSC qui partiront dans les îles subantarctiques avec nous !
+En début de deuxième semaine nous aurons une nouvelle formation sur un aspect que je trouve très intéressant de notre poste à Kerguelen à savoir seconder le "génèr", soit le responsable de la logistique appliquée au fret rentrant et sortant des îles mais aussi de la planification des sorties de la station et la responsabilité des inventaires. Pour finir cette semaine nous rencontrerons  tous les autres VSC qui partiront dans les îles subantarctiques[^1] avec nous !
 
 
 {{< figure src="Groupe IPEV.jpg" link="Groupe IPEV.jpg" caption="Toute la team des Subantarctique!" >}}
@@ -51,4 +51,4 @@ J'ai fait exprès de ne pas rentrer dans les détails de tous les projets auxque
 
 Le prochain post à venir sera sur notre confinement de 2 semaines à la Réunion, où comment s'occuper dans un hôtel.
 
-
+[^1]:Comprend Crozet, Kerguelen et Amsterdam
