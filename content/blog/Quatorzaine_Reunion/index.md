@@ -51,7 +51,7 @@ Enfin, même si nous ne pouvions sortir de l'enceinte de l'hôtel, nous avons pu
 Après ces deux semaines passées à la Réunion il est temps pour nous de partir pour 2 semaines à bord du Marion Dufresne en direction de nos futurs terres d'accueil, les TAAF.
 
 
-{{< figure src="groupe.jpg" link="groupe.jpg" caption="Est-ce que le sol mouillé le jiour de notre départ ne serait-il pas dû à la seule tempête tropicale du séjour?... Peut-être" >}}
+{{< figure src="groupe.jpg" link="groupe.jpg" caption="Ptite photo ensemble avant le départ de l'hôtel" >}}
 
 
 [^1]:Terres Australes et Antarctiques Françaises
