@@ -48,7 +48,7 @@ Enfin, même si nous ne pouvions sortir de l'enceinte de l'hôtel, nous avons pu
 
 {{< figure src="Bulbul.jpg" link="Bulbul.jpg" caption="Une Bulbul, magnifique oiseau qui niche juste à côté de nos tables" >}}
 
-Après ces deux semaines passées à la Réunion il est temps pour nous de partir pour 2 semaines à bord du Marion Dufresne en direction de nos futurs terres d'accueil, les TAAF.
+Après ces deux semaines passées à la Réunion il est temps pour nous de partir pour 2 semaines à bord du Marion Dufresne en direction de nos futurs terres d'accueil, les TAAF[^1].
 
 
 {{< figure src="groupe.jpg" link="groupe.jpg" caption="Ptite photo ensemble avant le départ de l'hôtel" >}}
