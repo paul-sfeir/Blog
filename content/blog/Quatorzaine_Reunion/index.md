@@ -16,7 +16,7 @@ C'est pourquoi il a été décidé que toute personne souhaitant se rendre dans 
 Ces 14 jours étant effectués à la Réunion, nous arriverons deux semaines avant le départ du Marion et séjournerons à l'Ermitage Boutik Hotel, qui a été privatisé par l'Institut Polaire. Cela nous permet de pouvoir nous déplacer dans l'enceinte de ce dernier tout en portant des masques et même de pouvoir à tour de rôle profiter de la piscine, une chance que nos amis partant en Antarctique n'ont pas. En effet leur confinement se passe en Australie et ils ne peuvent quitter leur chambre que pour aller se promener dans un enclos extérieur de 5m de long escortés d'un garde et n'ont autrement même pas le droit d'ouvrir leur fenêtre de chambre...
 
 
-{{< figure src="Piscine.jpg" link="Piscine.jpg" caption="On est quand-même très bien loti" >}}
+{{< figure src="piscine.jpg" link="piscine.jpg" caption="On est quand-même très bien loti" >}}
 
 
 Pendant ce séjour de nombreux documents nous seront transmis afin de se préparer en avance à la passation entre les hivernant de l'année dernière et nous-mêmes, mais nous aurons quand-même pas mal de temps libre. 
@@ -38,15 +38,15 @@ Ce sera au final x participants qui s'élanceront, parcourant un total de 30km e
 Je serai (modestement) l'un d'entre eux en faisant presque 1km de natation et 7km de course.
 
 
-{{< figure src="Grand Raid.jpg" link="Grand Raid.jpg" caption="Ma superbe médaille de participation" >}}
+{{< figure src="grand_raid.jpg" link="grand_raid.jpg" caption="Ma superbe médaille de participation" >}}
 
 
 Enfin, même si nous ne pouvions sortir de l'enceinte de l'hôtel, nous avons pu admirer une partie de la nature "sauvage" que compte cette belle île.
 
-{{< figure src="geopelie zebree.jpg" link="geopelie zebree.jpg" caption="Une géopélie zébrée m'aidant à finir mon petit déjeuner" >}}
+{{< figure src="geopelie_zebree.jpg" link="geopelie_zebree.jpg" caption="Une géopélie zébrée m'aidant à finir mon petit déjeuner" >}}
 
 
-{{< figure src="Bulbul.jpg" link="Bulbul.jpg" caption="Une Bulbul, magnifique oiseau qui niche juste à côté de nos tables" >}}
+{{< figure src="bulbul.jpg" link="bulbul.jpg" caption="Une Bulbul, magnifique oiseau qui niche juste à côté de nos tables" >}}
 
 Après ces deux semaines passées à la Réunion il est temps pour nous de partir pour 2 semaines à bord du Marion Dufresne en direction de nos futurs terres d'accueil, les TAAF[^1].
 
