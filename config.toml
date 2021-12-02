@@ -18,7 +18,7 @@ enableEmoji             = true
   home                  = ["html", "json", "rss"]
 
 [params]
-  timeout               = 600000
+  timeout               = 60000
   enableCDN             = false
   cssFiles              = ["default"]
   jsFiles               = ["default"]
