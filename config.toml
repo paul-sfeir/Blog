@@ -10,6 +10,7 @@ paginate                = 3
 pluralizeListTitles     = false
 disableLanguages        = ["de", "es", "en", "ja", "nl", "pl", "pt", "zh-cn", "zh-tw"]
 enableEmoji             = true
+timeout                 = 600000
 
 [markup.goldmark.renderer]
   unsafe                = true
@@ -18,7 +19,6 @@ enableEmoji             = true
   home                  = ["html", "json", "rss"]
 
 [params]
-  timeout               = 60s
   enableCDN             = false
   cssFiles              = ["default"]
   jsFiles               = ["default"]
