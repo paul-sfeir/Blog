@@ -12,4 +12,20 @@ En effet j'ai été sélectionné pour partir avec l'Institut polaire français 
 
 Mes missions sur place consisteront principalement à assurer le maintien en condition opérationnel des équipements informatiques (du poste de travail aux serveurs ou équipements réseau) et à aider les scientifiques sur leurs différents projets. Sur ce blog vous trouverez ainsi des informations et photos sur tous ces projets ainsi que sur ma vie sur cette base perdue au sud de l'Océan Indien.
 
-Bonne lecture :smile: 
+Bonne lecture :smile:
+
+
+
+
+#### Blog des copains
+
+##### Dumont D'Urville
+* https://pole.michaud.bzh
+* https://mayliuy.wixsite.com/penguin (principalement anglais)
+
+##### Amsterdam
+* https://ileduboutdumonde.xyz
+
+##### Kerguelen
+* @leeaa_f sur Insta
+* @koya.bk sur Insta
