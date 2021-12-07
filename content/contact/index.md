@@ -6,10 +6,8 @@ tags = ["Contact"]
 categories = ["Contact"]
 +++
 
-Jusqu'au 10 Novembre, si vous souhaitez me joindre vous pouvez m'envoyer un mail à: 
-<a href="mailto:paul.sfeir@gmail.com">paul.sfeir@gmail.com</a>
 
-A partir du 10 Novembre vous pourrez me contacter au choix par mail:
+A partir du 10 Novembre 2021 et jusqu'à Décembre 2022 vous pourrez me contacter au choix par mail:
 <a href="mailto:paul.sfeir@kerguelen.ipev.fr">paul.sfeir@kerguelen.ipev.fr</a> 
 
 Ou par voie postale:
