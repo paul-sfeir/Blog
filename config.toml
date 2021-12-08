@@ -140,7 +140,7 @@ timeout                 = 600000
       languageMenu        = true
     
     [Languages.en.params.intro]
-      paragraph             = "Chronicles of an IT guy over-wintering in Kerguelen islands"
+      paragraph             = "Chronicles of an IT guy over-wintering in the Kerguelen islands"
       
     [Languages.en.params.intro.pic]
       src                 = "img/main/logo.jpg"
