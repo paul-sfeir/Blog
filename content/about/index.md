@@ -28,4 +28,3 @@ Bonne lecture :smile:
 
 ##### Kerguelen
 * @leeaa_f sur Insta
-* @koya.bk sur Insta

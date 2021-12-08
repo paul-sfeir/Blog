@@ -32,13 +32,13 @@ L'après-midi sera plus tranquille avec un long moment de détente face à la me
 
 {{< figure src="ile_de_lest.jpg" link="ile_de_lest.jpg" caption="Observation de l'océan avec l'île de l'Est en face" >}}
 
-Nous verrons sur le chemin l'une des bryophytes (mousses) particulièrement vulnérable de l'île, l'azorelle, qui en plus de ne pousser que très lentement (quelques centimètres par an) meurt entièrement si l'on marche ne serait-ce qu'en partie dessus.
+Nous verrons sur le chemin l'une des plantes particulièrement vulnérable de l'île, l'azorelle, qui en plus de ne pousser que très lentement (quelques centimètres par an) meurt entièrement si l'on marche ne serait-ce qu'en partie dessus.
 
 {{< figure src="azorella_selago.jpg" link="azorella_selago.jpg" caption="L'azorelle en macro" >}}
 
 Nous ne pourrons pas tarder plus que ça, l'arrivée de l'hélicoptère marquera notre retour sur le Marion... Car je n'avais pas précisé mais le transport vers les stations scientifiques se fait par hélicoptère. J'aurai donc fait mon baptême hélico dans les sub-antarctiques ! 
 
-Et aussi incroyable que fût cette expérience, j'ai failli l'oublier tant le reste de la journée fût marquant.
+Et aussi incroyable que fût cette expérience, j'ai failli l'oublier en écrivant cet article tant le reste de la journée fût marquant.
 
 Je m'arrête là pour ce post et te dis à bientôt pour le prochain article sur mon arrivée à Kerguelen!
 

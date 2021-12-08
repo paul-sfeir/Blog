@@ -4,11 +4,11 @@ baseurl                 = "https://hivernage-kerguelen.monpetitdomaine.fr/"
 DefaultContentLanguage  = "fr"
 title                   = "Chroniques d'un hivernant informaticien aux îles Kerguelen"
 theme                   = "hugo-future-imperfect-slim"
-paginate                = 3
+paginate                = 4
 #disqusShortname         = ""
 #googleAnalytics         = "G-4DRJJ5LN01"
 pluralizeListTitles     = false
-disableLanguages        = ["de", "es", "en", "ja", "nl", "pl", "pt", "zh-cn", "zh-tw"]
+disableLanguages        = ["de", "es", "ja", "nl", "pl", "pt", "zh-cn", "zh-tw"]
 enableEmoji             = true
 timeout                 = 600000
 
@@ -46,7 +46,7 @@ timeout                 = 600000
     dynamicTitles       = false
     searchMenu          = true
     shareMenu           = false
-    languageMenu        = false
+    languageMenu        = true
 
   [params.intro]
     header                = "Paul SFEIR"
@@ -92,49 +92,10 @@ timeout                 = 600000
       siteKey           = ""
       encryptedKey      = ""
 
-[menu]
-
-  [[menu.main]]
-    name              = "Home"
-    identifier        = "home"
-    url               = ""
-    pre               = "<i class='fa fa-home'></i>"
-    weight            = 1
-
-  [[menu.main]]
-    name              = "About"
-    identifier        = "about"
-    url               = "about"
-    pre               = "<i class='far fa-id-card'></i>"
-    weight            = 2
-
-  [[menu.main]]
-    name              = "Hivernage Kerguelen 72"
-    identifier        = "blog"
-    url               = "blog"
-    pre               = "<i class='far fa-newspaper'></i>"
-    weight            = 3
-
-  #[[menu.main]]
-  #  name              = "Categories"
-  #  identifier        = "categories"
-  #  url               = "categories"
-  #  pre               = "<i class='fas fa-sitemap'></i>"
-  #  weight            = 5
-
-  [[menu.main]]
-    name              = "Contact"
-    identifier        = "contact"
-    url               = "contact"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
 
 [Languages]
 
-  #[Languages.en]
-  #  LanguageCode        = "en"
-  #  LanguageName        = "English"
-  #  weight              = 1
+  
 
   [Languages.fr]
     LanguageCode        = "fr"
@@ -142,7 +103,7 @@ timeout                 = 600000
     title               = "Hivernage Kerguelen 72"
     description         = ""
     weight              = 2
-
+    
     [[Languages.fr.menu.main]]
       name              = "Accueil"
       identifier        = "home"
@@ -156,6 +117,58 @@ timeout                 = 600000
       url               = "about"
       pre               = "<i class='far fa-id-card'></i>"
       weight            = 2
+      
+    [[Languages.fr.menu.main]]
+      name              = "Contact"
+      identifier        = "contact"
+      url               = "contact"
+      pre               = "<i class='far fa-envelope'></i>"
+      weight            = 6
+      
+      
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "English"
+    title               = "Kerguelen Over-Wintering 72"
+    weight              = 1
+    
+    [Languages.en.params.header]
+      navbarTitle         = "Kerguelen Over-Wintering 72"
+      dynamicTitles       = false
+      searchMenu          = true
+      shareMenu           = false
+      languageMenu        = true
+    
+    [Languages.en.params.intro]
+      paragraph             = "Chronicles of an IT guy over-wintering in Kerguelen islands"
+      
+    [Languages.en.params.intro.pic]
+      src                 = "img/main/logo.jpg"
+      shape               = "circle"
+      width               = ""
+      alt                 = "Photo Paul SFEIR"
+
+    
+    [[Languages.en.menu.main]]
+      name              = "Home"
+      identifier        = "home"
+      url               = ""
+      pre               = "<i class='fas fa-home'></i>"
+      weight            = 1
+
+    [[Languages.en.menu.main]]
+      name              = "About"
+      identifier        = "about"
+      url               = "about"
+      pre               = "<i class='far fa-id-card'></i>"
+      weight            = 2
+      
+      [[Languages.en.menu.main]]
+      name              = "Contact"
+      identifier        = "contact"
+      url               = "contact"
+      pre               = "<i class='far fa-envelope'></i>"
+      weight            = 6
 
     #[[Languages.fr.menu.main]]
     #  name              = "Blog"
@@ -171,12 +184,7 @@ timeout                 = 600000
     #  pre               = "<i class='fas fa-sitemap'></i>"
     #  weight            = 5
 
-    [[Languages.fr.menu.main]]
-      name              = "Contact"
-      identifier        = "contact"
-      url               = "contact"
-      pre               = "<i class='far fa-envelope'></i>"
-      weight            = 6
+    
 
  
 
