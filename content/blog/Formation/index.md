@@ -13,6 +13,9 @@ Après avoir profité de mon dernier été en France avant 2023, me voilà fin p
 
 Direction Brest, où je vais rencontrer les autres informaticiens qui partiront sur leur différent districts, à savoir Crozet, Amsterdam et Dumont D'Urville.
 
+
+{{< figure src="senat_fr_sub-antarctique.jpg" link="senat_fr_sub-antarctique.jpg" caption="Carte des sub-antarctique ©senat.fr" >}}
+
 Ensemble nous allons suivre un peu plus d'un mois de formations afin de nous préparer au mieux à nos différentes missions sur place... Je dis différentes missions car en plus de notre responsabilité première d'informaticien réseau nous avons aussi des programmes scientifiques qui nous incombent ainsi qu'un rôle de support au logisticien.
 
 Durant cette première semaine de formation nous seront présentés les différents aspects de la gestion du réseau et des serveurs de nos stations ainsi que les pannes sympas comme le passage d'un éléphant de mer sur un chemin de câbles ou encore la dégustation de fibre optique par des rongeurs... En dehors de la formation nous sommes logés dans un village vacance au Conquet où nous avons pu goûter (et regoûter) aux crèpes bretonnes ainsi que nous baigner dans une eau que je qualifierais de revigorante...

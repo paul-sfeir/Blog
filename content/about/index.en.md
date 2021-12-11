@@ -10,6 +10,8 @@ Hello there! I am Paul, a network engineer since 2017 and I have created this bl
 
 Indeed, I have been selected by the french polar Institute to go the Kerguelen island for one year as part of the 72 mission there, which will start mid-November 2021 and will finish mid-December 2022.
 
+{{< figure src="senat_fr_sub-antarctique.jpg" link="senat_fr_sub-antarctique.jpg" caption="Carte des sub-antarctique ©senat.fr" >}}
+
 My missions there will be diverse, my main mission will be to maintain and deploy the network and servers that are there but I will also be responsible (with the electronician) of numerous scientific programs that I will explain in a later post. In this blog you will find information and pictures of my life there, lost in the south of the Indian Ocean.
 
 Enjoy :smile:
