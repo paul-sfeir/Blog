@@ -33,4 +33,4 @@ in order to send all these, we are allowed up to 3 metal boxes of up to 40kg eac
 
 
 Next step, a month and a half of training split between Brest and Strasbourg starting the 30th of August. But I will finish here for the first post and hope to see you soon!
-[^1]:Volontariat de Service Civique
+

@@ -34,7 +34,7 @@ Je ne rentrerai pas ici dans les détails de ce que sont ces tampons, mais la pl
 Un autre évènement majeur qui viendra animer ce séjour sera le 24h Grand Raid Ermitage Boutik Hotel. En effet, durant notre séjour se déroulera le Grand Raid sur la Diagonale des Fous, une course traversant la Réunion longue de 168km pour 9611m de dénivelé, ce qui motivera certains à créer un évènement sportif dans l'hôtel.
 L'évènement se déroulera sur 24h, avec 12h de natation suivi de 12h de course à pied, le tout effectué en relais.
 
-Ce sera au final x participants qui s'élanceront, parcourant un total de 30km en natation et 110km en course à pied.
+Ce sera au final une dizaine de participants qui s'élanceront, parcourant un total de 30km en natation et 110km en course à pied.
 Je serai (modestement) l'un d'entre eux en faisant presque 1km de natation et 7km de course.
 
 
@@ -46,9 +46,9 @@ Enfin, même si nous ne pouvions sortir de l'enceinte de l'hôtel, nous avons pu
 {{< figure src="geopelie_zebree.jpg" link="geopelie_zebree.jpg" caption="Une géopélie zébrée m'aidant à finir mon petit déjeuner" >}}
 
 
-{{< figure src="bulbul.jpg" link="bulbul.jpg" caption="Une Bulbul, magnifique oiseau qui niche juste à côté de nos tables" >}}
+{{< figure src="bulbul.jpg" link="bulbul.jpg" caption="Un Bulbul, magnifique oiseau qui niche juste à côté de nos tables" >}}
 
-Après ces deux semaines passées à la Réunion il est temps pour nous de partir pour 2 semaines à bord du Marion Dufresne en direction de nos futurs terres d'accueil, les TAAF[^1].
+Après ces deux semaines passées à la Réunion il est temps pour nous de partir pour deux semaines à bord du Marion Dufresne en direction de nos futurs terres d'accueil, les TAAF[^1].
 
 
 {{< figure src="groupe.jpg" link="groupe.jpg" caption="Ptite photo ensemble avant le départ de l'hôtel" >}}
