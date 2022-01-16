@@ -12,7 +12,7 @@ jobs:
       - run: git submodule update
       - run: 
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v
+          command: HUGO_ENV=production hugo -v --minify
       - run: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
       - add_ssh_keys:
           fingerprints:
