@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = ["Voyage"]
 categories = ["Voyage"]
 [[images]]
-  src = "img/Articles/Voyage_Voyage/Couverture.jpg"
+  src = "Couverture.jpg"
   alt = "Piscine"
   stretch = "horizontal"
 +++

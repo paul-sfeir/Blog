@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = ["Voyage"]
 categories = ["Voyage"]
 [[images]]
-  src = "img/Articles/Crozet/Couverture.jpg"
+  src = "Couverture.jpg"
   alt = "Crozet"
   stretch = "horizontal"
 +++

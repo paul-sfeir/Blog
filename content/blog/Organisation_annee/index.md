@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = [""]
 categories = [""]
 [[images]]
-  src = "img/Articles/Organisation_annee/Couverture.jpg"
+  src = "Couverture.jpg"
   alt = "Hélicoptère du Marion Dufresne"
   stretch = "horizontal"
 +++

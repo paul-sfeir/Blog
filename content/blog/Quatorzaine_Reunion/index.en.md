@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = ["Réunion"]
 categories = ["About"]
 [[images]]
-  src = "img/Articles/Quatorzaine_Reunion/Couverture.jpg"
+  src = "Couverture.jpg"
   alt = "Piscine"
   stretch = "horizontal"
 +++

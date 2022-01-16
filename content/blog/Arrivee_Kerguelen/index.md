@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = ["Voyage", "Kerguelen"]
 categories = ["Voyage", "Kerguelen"]
 [[images]]
-  src = "img/Articles/Arrivee_Kerguelen/Couverture.jpg"
+  src = "Couverture.jpg"
   alt = "Kerguelen"
   stretch = "horizontal"
 +++

@@ -12,6 +12,7 @@ disableLanguages        = ["de", "es", "ja", "nl", "pl", "pt", "zh-cn", "zh-tw"]
 enableEmoji             = true
 timeout                 = 600000
 
+  
 [markup.goldmark.renderer]
   unsafe                = true
 
@@ -57,7 +58,7 @@ timeout                 = 600000
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "main/logo.jpg"
       shape               = "circle"
       width               = ""
       alt                 = "Photo Paul SFEIR"

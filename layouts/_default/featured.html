@@ -1,0 +1,53 @@
+{{- if or .Params.images .Params.featured -}}
+  {{- $src := "" -}}
+  {{- $alt := "" -}}
+  {{- $stretch := .Site.Params.imageStretch -}}
+  {{- $blur := .Site.Params.removeBlur -}}
+  {{- if .Params.featured -}}
+    {{- $src = (path.Join "img" (cond (eq .Params.featuredpath "date") (.Page.Date.Format "2006/01") (.Params.featuredpath)) .Params.featured) -}}
+    {{- $alt = .Params.featuredalt -}}
+    {{- with .Params.featuredstretch -}}
+      {{- $stretch = . -}}
+    {{- end -}}
+    {{- with .Params.removeBlur -}}
+      {{- $blur = . -}}
+    {{- end -}}
+  {{- else if .Params.images -}}
+    {{- range first 1 .Params.images -}}
+      {{- $src = .src -}}
+      {{- $alt = .alt -}}
+      {{- with .stretch -}}
+        {{- $stretch = . -}}
+      {{- end -}}
+      {{- with .removeBlur -}}
+        {{- $blur = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+{{ $sizes := (slice "480" "800" "1200" "1500") }}
+{{ $src := .Page.Resources.GetMatch ($src) }}
+
+<a href="{{ $.Page.RelPermalink }}">
+<img
+        {{ if $src }}
+            sizes="(min-width: 35em) 1200px, 100vw"
+            {{/* only srcset images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}  
+            srcset='
+            {{ range $sizes }}
+                   {{ if ge $src.Width . }}{{ ($src.Resize (printf "%sx" .)).Permalink }} {{ (printf "%sw" .) }},{{ end }}
+            {{ end }}'
+
+            {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
+            {{/* if image smaller than 800, then load the image itself */}}
+            {{ if ge $src.Width "800" }}src="{{ ($src.Resize "800x").Permalink }}"
+            {{ else }}src="{{ $src }}"
+            {{ end }}
+
+        {{ else }}
+            {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
+            src="{{ $src }}"
+        {{ end }}
+    /> <!-- Closing img tag -->
+</a>
+{{ end }}

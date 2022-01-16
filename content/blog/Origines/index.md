@@ -5,7 +5,7 @@ author = "Paul SFEIR"
 tags = ["About"]
 categories = ["About"]
 [[images]]
-  src = "img/Articles/Origines/Couverture.jpg"
+  src = "Couverture.jpg"
   alt = "Brest scene"
   stretch = "horizontal"
 +++
