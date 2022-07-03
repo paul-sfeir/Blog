@@ -34,11 +34,11 @@ Enfin nous arriverons à la cabane, située juste à côté du lac Supérieur. E
 
 {{< figure src="Vue_toilettes.jpg" link="Vue_toilettes.jpg" caption="La vue est plutôt sympa" >}}
 
-Durant les 3 jours sur place nous irons le premier jour aux montagnes Vertes et alentours où nous aurons l'occasion de débuter les prélèvements et les mesures. A chaque point de prélèvement, chacun son rôle. Eric prélèvera les mousses, Emily le et Ludo mesurera le PH du sol.
+Durant les 3 jours sur place nous irons le premier jour aux montagnes Vertes et alentours où nous aurons l'occasion de débuter les prélèvements et les mesures. A chaque point de prélèvement, chacun son rôle. Eric prélèvera les mousses, Emily la terre sur 2-3cm et 10cm et Ludo mesurera le PH du sol.
 
 {{< figure src="Eric.jpg" link="Eric.jpg" caption="Prélèvement de mousse par Eric- OpenStreetMap #2" >}}
 
-{{< figure src="Emily.jpg" link="Emily.jpg" caption="Prélèvement par Emily - OpenStreetMap #2" >}}
+{{< figure src="Emily.jpg" link="Emily.jpg" caption="Prélèvement de sol par Emily - OpenStreetMap #2" >}}
 
 De manière opportuniste Ludo mesurera aussi la chimie de l'eau des rivières et lacs afin de connaitre son enrichissement depuis sa pénétration dans le sol jusqu'à son ruissellement.
 
