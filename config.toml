@@ -3,7 +3,7 @@
 baseurl                 = "https://hivernage-kerguelen.monpetitdomaine.fr/"
 DefaultContentLanguage  = "fr"
 title                   = "Chroniques d'un hivernant informaticien aux îles Kerguelen"
-theme                   = "hugo-future-imperfect-slim"
+theme                   = ["hugo-future-imperfect-slim", "osm"]
 paginate                = 4
 #disqusShortname         = ""
 #googleAnalytics         = "G-4DRJJ5LN01"
