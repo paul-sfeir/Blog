@@ -27,7 +27,7 @@ La station sismo installée sera constituée de 3 éléments principaux, un capt
 
 {{< figure src="Station_Lisisker.jpg" link="Station_Lisisker.jpg" caption="Station Lisisker avec Romu posant fièrement" >}}
 
-Une fois l'installation effectuée nous en profiterons pour inspecter la cabane de Pointe Suzanne Bas et se promener aux alentours. En effet une colonie de manchots papous et beaucoup d'otaries y ont élues domiciles. Leurs grognements à notre passage nous rappelleront que derrière leurs belles fourrures se cachent de aussi de jolies petites dents, et certaines n'hésiteront pas à nous charger pour nous faire peur. Heureusement nous aurons nos batons de marche pour faire du bruit et les faire fuir.
+Une fois l'installation effectuée nous en profiterons pour inspecter la cabane de Pointe Suzanne Bas et se promener aux alentours. En effet une colonie de manchots papous et beaucoup d'otaries y ont élues domiciles. Leurs grognements à notre passage nous rappelleront que derrière leurs belles fourrures se cachent de aussi de jolies petites dents, et certaines n'hésiteront pas à nous charger pour nous faire peur. Heureusement nous aurons nos bâtons de marche pour faire du bruit et les faire fuir.
 
 {{< figure src="Otaries.jpg" link="Otaries.jpg" caption="Mâle et femelle otaries sur l'herbe devant la cabane" >}}
 
@@ -37,7 +37,7 @@ Les manchots papous sont de natures peureuses mais curieuses, ainsi après m'êt
 
 {{< figure src="Papou_picoreur.jpg" link="Papou_picoreur.jpg" caption="Papous curieux" >}}
 
-Bref une chouette manip passée en de bonne compagnie avec des transmissions de savoirs importants comme les noeuds pour haubanner les cabanes, même si la plus importante aura été d'apprendre à faire des sardines grillées en ajoutant une feuille de sopalin sur la boite ouverte et ainsi créer une pseudo lampe à huile qui grille les sardines.
+Bref une chouette manip passée en de bonne compagnie avec des transmissions de savoirs importants comme les noeuds pour haubaner les cabanes, même si la plus importante aura été d'apprendre à faire des sardines grillées en ajoutant une feuille de sopalin sur la boite ouverte et ainsi créer une pseudo lampe à huile qui grille les sardines.
 
 {{< openstreetmap mapName="manip-pointe-suzanne_863513" searchControl="false" datalayersControl="false" embedControl="false" tilelayersControl="false" moreControl="false" >}}
 
